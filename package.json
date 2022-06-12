@@ -7,7 +7,7 @@
     "server-install": "npm install --prefix server",
     "client-build": "npm run build --prefix client",
     "server-build": "npm run build --prefix server",
-    "client": "npm start --prefix client",
+    "client": "npm run dev --prefix client",
     "server": "npm start --prefix server",
     "start": "concurrently -n 'server,client' -c 'yellow,green' \"npm run server\" \"npm run client\""
   },
