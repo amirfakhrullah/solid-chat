@@ -1,0 +1,20 @@
+{
+  "name": "solid-chat",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
+    "client-build": "npm run build --prefix client",
+    "server-build": "npm run build --prefix server",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "start": "concurrently -n 'server,client' -c 'yellow,green' \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
