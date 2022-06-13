@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "babel-preset-solid": "^1.4.4",
-    "solid-js": "^1.4.4"
+    "graphql": "^16.5.0",
+    "solid-js": "^1.4.4",
+    "urql": "^2.2.2"
   }
 }
